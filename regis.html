@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="regis.css" />
+    <title>Jp's Register</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="circle">
+          <img src="../img/jpsshop.png" alt="Jp's Shop Logo" />
+        </div>
+
+        <!-- tulisan dibawah logo sebelah kiri -->
+        <div class="shop-name">JP'S SHOP</div>
+      </div>
+
+      <div class="right">
+        <img src="../img/jpsshop.png" alt="JP's Shop Logo" />
+        <h2>SIGN UP</h2>
+        <div class="input-group">
+          <label for="username">
+            <i class="fas fa-user"> </i>
+            Username/No. Handphone
+          </label>
+          <input id="username" name="username" type="text" />
+        </div>
+
+        <!-- password -->
+        <div class="input-group">
+          <label for="password">
+            <i class="fas fa-lock"> </i>
+            Password
+          </label>
+          <input id="password" name="password" type="password" />
+        </div>
+
+        <!-- confirm password -->
+        <div class="input-group">
+          <label for="confirm-password">
+            <i class="fas fa-lock"> </i>
+            Confirm Password
+          </label>
+          <input id="password" name="password" type="password" />
+        </div>
+
+        <!-- Email -->
+        <div class="input-group">
+          <label for="email">
+            <i class="fas fa-envelope"> </i>
+            Email
+          </label>
+          <input id="text" name="email" type="email" />
+        </div>
+
+        <!-- button remember me -->
+        <div class="remember-me">
+          <input id="remember-me" name="remember-me" type="checkbox" />
+          <label for="remember-me">Remember Me</label>
+        </div>
+        <button class="regis-btn" onclick="toLogin()">SIGN UP</button>
+        <div class="regis-with">
+          <a href="#">Sign Up With</a>
+          <a href="https://google.com">
+            <i class="fab fa-google"> </i>
+          </a>
+          <a href="https://facebook.com">
+            <i class="fab fa-facebook"> </i>
+          </a>
+          <a href="https://vk.com">
+            <i class="fab fa-vk"> </i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Script js -->
+    <script src="regis.js"></script>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  height: 100vh;
+  background-color: #fefefe;
+}
+
+/* Container */
+.container {
+  display: flex;
+  width: 100%;
+}
+
+/* Left */
+.left {
+  background-color: #f1c6aa;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Left circle */
+.left .circle {
+  background-color: #a65b3e;
+  width: 60%;
+  height: 100px;
+  padding-bottom: 60%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+/* left circle img */
+.left .circle img {
+  margin-bottom: -449px;
+  height: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* left shop name */
+.left .shop-name {
+  position: absolute;
+  bottom: 20px;
+  font-size: 24px;
+  margin-right: 30px;
+  color: #a65b3e;
+}
+
+/* right pos */
+.right {
+  background-color: #ffffff;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* right + img */
+.right img {
+  width: 40%;
+  height: auto;
+}
+
+/* right + h2 */
+.right h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #333333;
+}
+
+/* right inputgroup */
+.right .input-group {
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+/* right input-group input */
+.right .input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+/* right input-group label */
+.right .input-group label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333333;
+}
+
+/* right input-group label i */
+.right .input-group label i {
+  margin-right: 10px;
+}
+
+/* right remember me */
+.right .remember-me {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+/* right remember me input */
+.right .remember-me input {
+  margin-right: 10px;
+}
+
+/* right button */
+.right .login-btn {
+  width: 80%;
+  padding: 10px;
+  background-color: #a65b3e;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+/* right btn hover */
+.right .login-btn:hover {
+  transition: 0.4s linear;
+  background-color: rgb(75, 37, 27);
+}
+
+/* right login with */
+.right .login-with {
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+/* right login with a href */
+.right .login-with a {
+  color: #333333;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+/* right regis */
+.right .register {
+  font-size: 14px;
+  color: #333333;
+}
+
+/* right regis a */
+.right .register a {
+  color: #1a73e8;
+  text-decoration: none;
+}
